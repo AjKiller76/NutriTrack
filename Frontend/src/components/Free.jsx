@@ -1,12 +1,24 @@
-import React from 'react';
+import React, {useState,useEffect} from 'react';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Cards from "./Cards.jsx";
-import list from "../assets/list.json"
+import axios from 'axios';
 
 function Free() {
-    const filterData=list.filter((data)=>data.category==="free");
+  const[diet,setDiet]=useState([])
+  useEffect(()=>{
+    const getDiet=async()=>{
+      try{
+        const res=await axios.get("http://localhost:4001/diet")
+        console.log(res.data)
+        setDiet(res.data.filter((data)=>data.category==="free"))
+      }catch(error){
+        console.log(error)
+      }
+    }
+    getDiet();
+  },[])
     var settings = {
         dots: true,
         infinite: false,
@@ -45,14 +57,16 @@ function Free() {
   <>
     <div className='max-w-screen-2xl container mx-auto md:px-0 px-4'>
         <h1 className='font-semibold text-xl pb-2'>Popular Plans</h1>
-        <p>hsejhsv iwrjs iwhsedl is wsjetg 3twlesjr eskdxi jsejtiwehsl posreuwsex jedgj s ietslj xjesioj seji testd 3wjestgej jteije oestjijes </p>
+        
     </div>
     <div className="slider-container">
       <Slider {...settings}>
         {
-            filterData.map((item)=>(<Cards item={item} key={item.id}/>))
+            diet.map((item)=>(<Cards item={item} key={item.id}/>))
         }
       </Slider>
+      <p className='pt-5'>Whether you're looking to lose weight, gain muscle, or simply maintain a balanced and healthy lifestyle, our popular diet plans have you covered. Choose from a variety of meal options, designed by nutrition experts to fit your individual needs and preferences. Our plans focus on nutrient-dense, delicious meals that help you reach your health goals while enjoying what you eat. Explore personalized options and discover the perfect plan that aligns with your fitness and wellness journey.
+           </p>
     </div>
   </>
   )

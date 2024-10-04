@@ -3,6 +3,7 @@
         "id": 1,
         "title": "New movie is released!",
         "description": "Click the button to watch on Jetflix app.",
+        "price":0,
         "image": "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp",
         "buttonText": "Watch",
         "category": "movie"
@@ -11,6 +12,7 @@
         "id": 1,
         "title": "New movie is released!",
         "description": "Click the button to watch on Jetflix app.",
+        "price":0,
         "image": "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp",
         "buttonText": "Watch",
         "category": "free"
@@ -19,6 +21,7 @@
         "id": 2,
         "title": "New movie is released!",
         "description": "Click the button to watch on Jetflix app.",
+        "price":0,
         "image": "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp",
         "buttonText": "Watch",
         "category": "movie"
@@ -27,6 +30,7 @@
         "id": 3,
         "title": "New movie is released!",
         "description": "Click the button to watch on Jetflix app.",
+        "price":0,
         "image": "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp",
         "buttonText": "Watch",
         "category": "movie"
@@ -35,6 +39,7 @@
         "id": 4,
         "title": "New movie is released!",
         "description": "Click the button to watch on Jetflix app.",
+        "price":0,
         "image": "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp",
         "buttonText": "Watch",
         "category": "free"
@@ -43,6 +48,7 @@
         "id": 5,
         "title": "New movie is released!",
         "description": "Click the button to watch on Jetflix app.",
+        "price":0,
         "image": "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp",
         "buttonText": "Watch",
         "category": "free"
@@ -51,6 +57,7 @@
         "id": 6,
         "title": "New movie is released!",
         "description": "Click the button to watch on Jetflix app.",
+        "price":0,
         "image": "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp",
         "buttonText": "Watch",
         "category": "movie"
@@ -59,6 +66,7 @@
         "id": 7,
         "title": "New movie is released!",
         "description": "Click the button to watch on Jetflix app.",
+        "price":0,
         "image": "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp",
         "buttonText": "Watch",
         "category": "movie"
@@ -67,6 +75,7 @@
         "id": 8,
         "title": "New movie is released!",
         "description": "Click the button to watch on Jetflix app.",
+        "price":0,
         "image": "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp",
         "buttonText": "Watch",
         "category": "movie"
@@ -75,6 +84,7 @@
         "id": 9,
         "title": "New movie is released!",
         "description": "Click the button to watch on Jetflix app.",
+        "price":0,
         "image": "https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp",
         "buttonText": "Watch",
         "category": "free"
